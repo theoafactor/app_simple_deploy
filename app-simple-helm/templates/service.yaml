@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: myservice
 spec:
-  type: LoadBalancer
   selector:
     app: simple-app
   ports:
