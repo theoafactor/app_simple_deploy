@@ -13,6 +13,6 @@ spec:
     spec:
       containers: 
       - name: simple-app
-        image: theoafactor/app_deploy_test:1
+        image: theoafactor/app_deploy_test:2
         ports: 
         - containerPort: 80
